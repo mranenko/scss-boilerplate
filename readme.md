@@ -1,3 +1,6 @@
+<img src="images/screenshots/scss-boilerplate-1600.png" alt="" style="margin: 0 auto; max-width: 100%;" />
+
+
 # SCSS boilerplate
 
 This project contains SCSS files which may be used as boilerplate styles
