@@ -1,0 +1,50 @@
+* {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  box-sizing: border-box;
+  letter-spacing: .2px;
+  margin: 0;
+  padding: 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+html {
+  @include contrast-text(theme(html, background));
+
+  font-family: theme(html, font-family);
+  font-size: theme(html, font-size);
+  font-weight: theme(html, font-weight);
+  line-height: theme(html, line-height);
+}
+
+body {
+  background: none;
+  color: inherit;
+  font-family: theme(body, font-family);
+  font-size: theme(body, font-size);
+  font-weight: theme(body, font-weight);
+  line-height: theme(body, line-height);
+}
+
+p {
+  margin: 0 0 (theme(body, font-size) / 2);
+}
+
+
+/**
+  Ensure that footer is always positioned at the bottom
+ */
+
+.footer,
+.header,
+.main {
+  flex-shrink: 0;
+}
+
+.main {
+  flex-grow: 1;
+}

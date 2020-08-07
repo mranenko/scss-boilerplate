@@ -1,0 +1,9 @@
+/**
+  Fix collapsing margins of child elements
+ */
+
+.col,
+[class^='col-'] {
+  display: flex;
+  flex-direction: column;
+}
