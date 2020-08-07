@@ -83,6 +83,21 @@ p {
   flex-grow: 1;
 }
 
+.header {
+  background: #405c71;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 2rem;
+}
+.header h1, .header h2, .header h3, .header h4, .header h5, .header h6, .header .title, .header .subtitle {
+  color: #ffffff;
+}
+.header label, .header .label {
+  color: rgba(255, 255, 255, 0.6);
+}
+.header .title {
+  margin: 0;
+}
+
 .main {
   padding: 2rem;
 }

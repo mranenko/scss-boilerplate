@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Demo</title>
+  <title>SCSS boilerplate demo</title>
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="styles/demo.css">
@@ -11,14 +11,15 @@
 
 
 <body class="demo">
+<header class="header">
+  <h1 class="title">SCSS boilerplate demo</h1>
+</header>
+
 <main class="main">
-  <h1 class="title">Base colors and fonts</h1>
-
-
   <h2 class="subtitle">Colors</h2>
 
   <div class="row">
-    <div class="col-md-7">
+    <div class="col-lg-3">
       <div class="card">
         <div class="card-header">
           <h3 class="title">Main colors</h3>
@@ -27,6 +28,17 @@
         <div class="card-main">
           <div class="swatch-primary"></div>
           <div class="swatch-accent"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-5">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="title">Neutral colors</h3>
+        </div>
+
+        <div class="card-main">
           <div class="swatch-white"></div>
           <div class="swatch-light"></div>
           <div class="swatch-neutral"></div>
@@ -36,7 +48,7 @@
       </div>
     </div>
 
-    <div class="col-md">
+    <div class="col-lg-4">
       <div class="card">
         <div class="card-header">
           <h3 class="title">Additional colors</h3>

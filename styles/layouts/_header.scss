@@ -1,0 +1,9 @@
+.header {
+  @include contrast-text(theme(header, background));
+
+  padding: theme(header, padding);
+
+  .title {
+    margin: 0;
+  }
+}
