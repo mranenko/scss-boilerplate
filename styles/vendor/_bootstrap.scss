@@ -7,3 +7,15 @@
   display: flex;
   flex-direction: column;
 }
+
+
+/**
+  Vertical alignment
+ */
+
+.col,
+[class^='col-'] {
+  &.col-valign-bottom { justify-content: flex-end; }
+  &.col-valign-center { justify-content: center; }
+  &.col-valign-top { justify-content: flex-start; }
+}

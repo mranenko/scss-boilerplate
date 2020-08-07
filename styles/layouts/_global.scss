@@ -30,6 +30,22 @@ body {
   line-height: theme(body, line-height);
 }
 
+img {
+  display: block;
+}
+
+nav {
+  ul,
+  ul li,
+  ul li a {
+    display: block;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
 p {
   margin: 0 0 (theme(body, font-size) / 2);
 }

@@ -3,6 +3,12 @@
 
   padding: theme(header, padding);
 
+  .logo {
+    img {
+      @include size(auto, 7rem);
+    }
+  }
+
   .title {
     margin: 0;
   }

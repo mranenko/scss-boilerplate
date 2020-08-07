@@ -66,6 +66,19 @@ body {
   line-height: inherit;
 }
 
+img {
+  display: block;
+}
+
+nav ul,
+nav ul li,
+nav ul li a {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+
 p {
   margin: 0 0 0.7rem;
 }
@@ -93,6 +106,10 @@ p {
 }
 .header label, .header .label {
   color: rgba(255, 255, 255, 0.6);
+}
+.header .logo img {
+  width: auto;
+  height: 7rem;
 }
 .header .title {
   margin: 0;
@@ -187,6 +204,22 @@ h6 {
 [class^=col-] {
   display: flex;
   flex-direction: column;
+}
+
+/**
+  Vertical alignment
+ */
+.col.col-valign-bottom,
+[class^=col-].col-valign-bottom {
+  justify-content: flex-end;
+}
+.col.col-valign-center,
+[class^=col-].col-valign-center {
+  justify-content: center;
+}
+.col.col-valign-top,
+[class^=col-].col-valign-top {
+  justify-content: flex-start;
 }
 
 [class^=swatch-] {
