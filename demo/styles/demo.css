@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
   Color functions
  */
@@ -155,6 +156,13 @@ p {
   height: 100%;
 }
 
+[class^=swatch-], code,
+.code {
+  font-family: Source Code Pro, monospace;
+  font-size: 1.2rem;
+  line-height: 1.2857142857;
+}
+
 h1, h2, h3, h4, h5, h6, .title, .subtitle {
   font-family: PT Sans, sans-serif;
   font-weight: 400;
@@ -233,14 +241,11 @@ h6 {
   height: 10rem;
   border: 1px solid #e9eef1;
   display: inline-block;
-  font-family: Source Code Pro, monospace;
-  font-size: 1.2rem;
-  line-height: 1.2857142857;
   margin: 0 1rem 1rem 0;
 }
 [class^=swatch-]::after {
   background: #ffffff;
-  color: #1d2225;
+  color: å;
   position: absolute;
   top: auto;
   right: auto;

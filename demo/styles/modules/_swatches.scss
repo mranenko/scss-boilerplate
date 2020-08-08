@@ -1,16 +1,15 @@
 [class^='swatch-'] {
+  @extend %code;
+
   @include position(relative);
   @include size(10rem);
 
   border: 1px theme(border, neutral);
   display: inline-block;
-  font-family: theme(code, font-family);
-  font-size: theme(code, font-size);
-  line-height: theme(code, line-height);
   margin: 0 1rem 1rem 0;
 
   &::after {
-    @include contrast(color(white));
+    @include contrast(color(white), theme(text-dark)å);
     @include position(absolute, auto, auto, 0, 0);
 
     border-top: 1px theme(border, light);

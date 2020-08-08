@@ -2,9 +2,9 @@
   Color mixins
  */
 
-@mixin contrast($background: color(neutral)) {
+@mixin contrast($background: color(neutral), $dark: color(black), $light: color(white)) {
   background: $background;
-  color: contrast-color($background);
+  color: contrast-color($background, $dark, $light);
 }
 
 @mixin contrast-text($background: color(neutral)) {

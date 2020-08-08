@@ -155,6 +155,13 @@ p {
   height: 100%;
 }
 
+code,
+.code {
+  font-family: Source Code Pro, monospace;
+  font-size: 1.2rem;
+  line-height: 1.2857142857;
+}
+
 h1, h2, h3, h4, h5, h6, .title, .subtitle {
   font-family: PT Sans, sans-serif;
   font-weight: 400;

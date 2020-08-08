@@ -1,0 +1,10 @@
+%code {
+  font-family: theme(code, font-family);
+  font-size: theme(code, font-size);
+  line-height: theme(code, line-height);
+}
+
+code,
+.code {
+  @extend %code;
+}
