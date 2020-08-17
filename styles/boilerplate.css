@@ -52,7 +52,7 @@ html {
   line-height: 1.4285714286;
 }
 html h1, html h2, html h3, html h4, html h5, html h6, html .title, html .subtitle {
-  color: #405c71;
+  color: #215e5e;
 }
 html label, html .label {
   color: rgba(29, 34, 37, 0.6);
@@ -98,7 +98,7 @@ p {
 }
 
 .header {
-  background: #405c71;
+  background: #215e5e;
   color: rgba(255, 255, 255, 0.75);
   padding: 2rem;
 }
@@ -233,16 +233,16 @@ h6 {
   width: 100%;
 }
 .demo .swatch-primary {
-  background: #6b9abd;
+  background: #379c9c;
 }
 .demo .swatch-primary::after {
-  content: "primary \a#6b9abd";
+  content: "primary \a#379c9c";
 }
 .demo .swatch-accent {
-  background: #f5f38a;
+  background: #f59e7a;
 }
 .demo .swatch-accent::after {
-  content: "accent \a#f5f38a";
+  content: "accent \a#f59e7a";
 }
 .demo .swatch-neutral {
   background: #93aabb;
@@ -257,28 +257,28 @@ h6 {
   content: "white \a#ffffff";
 }
 .demo .swatch-success {
-  background: #6bbd94;
+  background: #69bda3;
 }
 .demo .swatch-success::after {
-  content: "success \a#6bbd94";
+  content: "success \a#69bda3";
 }
 .demo .swatch-info {
-  background: #8984c5;
+  background: #699dbd;
 }
 .demo .swatch-info::after {
-  content: "info \a#8984c5";
+  content: "info \a#699dbd";
 }
 .demo .swatch-danger {
-  background: #f58989;
+  background: #fa7d87;
 }
 .demo .swatch-danger::after {
-  content: "danger \a#f58989";
+  content: "danger \a#fa7d87";
 }
 .demo .swatch-warning {
-  background: #f5c189;
+  background: #fbc47d;
 }
 .demo .swatch-warning::after {
-  content: "warning \a#f5c189";
+  content: "warning \a#fbc47d";
 }
 .demo .swatch-black {
   background: #1d2225;
@@ -299,130 +299,130 @@ h6 {
   content: "light \a#f4f7f8";
 }
 .demo .swatch-primary-50 {
-  background: #f0f5f8;
+  background: #ebf5f5;
 }
 .demo .swatch-primary-50::after {
-  content: "50 \a#f0f5f8";
+  content: "50 \a#ebf5f5";
 }
 .demo .swatch-primary-100 {
-  background: #e1ebf2;
+  background: #d7ebeb;
 }
 .demo .swatch-primary-100::after {
-  content: "100 \a#e1ebf2";
+  content: "100 \a#d7ebeb";
 }
 .demo .swatch-primary-200 {
-  background: #c4d7e5;
+  background: #afd7d7;
 }
 .demo .swatch-primary-200::after {
-  content: "200 \a#c4d7e5";
+  content: "200 \a#afd7d7";
 }
 .demo .swatch-primary-300 {
-  background: #a6c2d7;
+  background: #87c4c4;
 }
 .demo .swatch-primary-300::after {
-  content: "300 \a#a6c2d7";
+  content: "300 \a#87c4c4";
 }
 .demo .swatch-primary-400 {
-  background: #89aeca;
+  background: #5fb0b0;
 }
 .demo .swatch-primary-400::after {
-  content: "400 \a#89aeca";
+  content: "400 \a#5fb0b0";
 }
 .demo .swatch-primary-500 {
-  background: #6b9abd;
+  background: #379c9c;
 }
 .demo .swatch-primary-500::after {
-  content: "500 \a#6b9abd";
+  content: "500 \a#379c9c";
 }
 .demo .swatch-primary-600 {
-  background: #567b97;
+  background: #2c7d7d;
 }
 .demo .swatch-primary-600::after {
-  content: "600 \a#567b97";
+  content: "600 \a#2c7d7d";
 }
 .demo .swatch-primary-700 {
-  background: #405c71;
+  background: #215e5e;
 }
 .demo .swatch-primary-700::after {
-  content: "700 \a#405c71";
+  content: "700 \a#215e5e";
 }
 .demo .swatch-primary-800 {
-  background: #2b3e4c;
+  background: #163e3e;
 }
 .demo .swatch-primary-800::after {
-  content: "800 \a#2b3e4c";
+  content: "800 \a#163e3e";
 }
 .demo .swatch-primary-900 {
-  background: #151f26;
+  background: #0b1f1f;
 }
 .demo .swatch-primary-900::after {
-  content: "900 \a#151f26";
+  content: "900 \a#0b1f1f";
 }
 .demo .swatch-primary-dark {
-  background: #405c71;
+  background: #215e5e;
 }
 .demo .swatch-primary-dark::after {
-  content: "dark \a#405c71";
+  content: "dark \a#215e5e";
 }
 .demo .swatch-accent-50 {
-  background: #fefef3;
+  background: #fef5f2;
 }
 .demo .swatch-accent-50::after {
-  content: "50 \a#fefef3";
+  content: "50 \a#fef5f2";
 }
 .demo .swatch-accent-100 {
-  background: #fdfde8;
+  background: #fdece4;
 }
 .demo .swatch-accent-100::after {
-  content: "100 \a#fdfde8";
+  content: "100 \a#fdece4";
 }
 .demo .swatch-accent-200 {
-  background: #fbfad0;
+  background: #fbd8ca;
 }
 .demo .swatch-accent-200::after {
-  content: "200 \a#fbfad0";
+  content: "200 \a#fbd8ca";
 }
 .demo .swatch-accent-300 {
-  background: #f9f8b9;
+  background: #f9c5af;
 }
 .demo .swatch-accent-300::after {
-  content: "300 \a#f9f8b9";
+  content: "300 \a#f9c5af";
 }
 .demo .swatch-accent-400 {
-  background: #f7f5a1;
+  background: #f7b195;
 }
 .demo .swatch-accent-400::after {
-  content: "400 \a#f7f5a1";
+  content: "400 \a#f7b195";
 }
 .demo .swatch-accent-500 {
-  background: #f5f38a;
+  background: #f59e7a;
 }
 .demo .swatch-accent-500::after {
-  content: "500 \a#f5f38a";
+  content: "500 \a#f59e7a";
 }
 .demo .swatch-accent-600 {
-  background: #c4c26e;
+  background: #c47e62;
 }
 .demo .swatch-accent-600::after {
-  content: "600 \a#c4c26e";
+  content: "600 \a#c47e62";
 }
 .demo .swatch-accent-700 {
-  background: #939253;
+  background: #935f49;
 }
 .demo .swatch-accent-700::after {
-  content: "700 \a#939253";
+  content: "700 \a#935f49";
 }
 .demo .swatch-accent-800 {
-  background: #626137;
+  background: #623f31;
 }
 .demo .swatch-accent-800::after {
-  content: "800 \a#626137";
+  content: "800 \a#623f31";
 }
 .demo .swatch-accent-900 {
-  background: #31311c;
+  background: #312018;
 }
 .demo .swatch-accent-900::after {
-  content: "900 \a#31311c";
+  content: "900 \a#312018";
 }
 .demo .swatch-neutral-50 {
   background: #f4f7f8;

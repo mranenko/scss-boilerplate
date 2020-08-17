@@ -1,12 +1,12 @@
-$-slate: #6b9abd;
-$-lemon: #f5f38a;
+$-meadow: #379c9c;
+$-sunrise: #f59e7a;
 $-storm: #93aabb;
 $-snow: #ffffff;
 
-$-grass: #6bbd94;
-$-plum: #8984c5;
-$-peach: #f5c189;
-$-strawberry: #f58989;
+$-grass: #69bda3;
+$-sky: #699dbd;
+$-peach: #fbc47d;
+$-watermelon: #fa7d87;
 
 
 /**
@@ -14,14 +14,14 @@ $-strawberry: #f58989;
  */
 
 $colors: (
-  primary: $-slate,
-  accent: $-lemon,
+  primary: $-meadow,
+  accent: $-sunrise,
   neutral: $-storm,
   white: $-snow,
 
   success: $-grass,
-  info: $-plum,
-  danger: $-strawberry,
+  info: $-sky,
+  danger: $-watermelon,
   warning: $-peach,
 );
 
