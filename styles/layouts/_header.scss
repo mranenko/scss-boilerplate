@@ -1,15 +1,21 @@
 .header {
-  @include contrast-text(theme(header, background));
-
+  align-items: center;
+  background: rgba(theme(header, background), .3);
+  display: flex;
+  flex-direction: row;
+  height: theme(header, height);
   padding: theme(header, padding);
 
-  .logo {
-    img {
-      @include size(auto, 7rem);
-    }
-  }
-
   .title {
+    color: contrast-color(theme(header, background));
+    font-size: 4.2rem;
     margin: 0;
+    text-transform: uppercase;
+
+    em {
+      color: color(accent);
+      font-style: normal;
+      font-weight: bold;
+    }
   }
 }

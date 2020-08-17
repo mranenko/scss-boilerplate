@@ -12,7 +12,7 @@
   color: contrast-color($background, theme(text, dark), theme(text, light));
 
   h1, h2, h3, h4, h5, h6, .title, .subtitle {
-    color: contrast-color($background, color-primary(dark), color(white));
+    color: contrast-color($background);
   }
 
   label, .label {

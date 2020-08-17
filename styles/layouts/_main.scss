@@ -1,3 +1,5 @@
 .main {
+  @include contrast-text(theme(main, background));
+
   padding: theme(main, padding);
 }

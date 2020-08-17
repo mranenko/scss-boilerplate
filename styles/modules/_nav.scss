@@ -1,0 +1,26 @@
+.nav-side {
+  @include contrast-text(theme(nav-side, background));
+
+  display: block;
+  height: #{calc(100% + 4rem)};
+  margin: -2rem -1.5rem -2rem -2rem;
+  min-height: #{calc(100vh - 20rem)};
+  padding: theme(nav-side, padding);
+  width: theme(nav-side, width);
+
+  a,
+  .link {
+    margin: 0 -#{theme(nav-side, padding)};
+    padding: .25rem theme(nav-side, padding);
+
+    &.active {
+      color: contrast-color(theme(nav-side, background));
+      border-left: solid .5rem color(accent);
+      padding-left: theme(nav-side, padding) - .5rem;
+    }
+  }
+
+  .title {
+    margin: 2rem 0 1.5rem;
+  }
+}

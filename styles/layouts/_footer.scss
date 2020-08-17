@@ -1,0 +1,9 @@
+.footer {
+  align-items: center;
+  background: rgba(theme(header, background), .3);
+  color: contrast-color(theme(header, background));
+  display: flex;
+  flex-direction: row;
+  height: theme(footer, height);
+  padding: theme(footer, padding);
+}

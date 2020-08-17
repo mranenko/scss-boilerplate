@@ -19,11 +19,6 @@ $theme: (
     light: rgba(color(white), 75%),
     light-muted: rgba(color(white), 60%),
   ),
-
-  title: (
-    dark: color(black),
-    light: color(white),
-  ),
 );
 
 @function theme($keys...) {
@@ -72,13 +67,26 @@ $theme: map-merge($theme,
       line-height: (18/14),
     ),
 
+    footer: (
+      height: 10rem,
+      padding: 2rem,
+    ),
+
     header: (
-      background: color-primary(700),
+      background: color(dark),
+      height: 24rem,
       padding: 2rem,
     ),
 
     main: (
+      background: color(light),
       padding: 2rem,
+    ),
+
+    nav-side: (
+      background: color-neutral(800),
+      padding: 2rem,
+      width: 20rem,
     ),
 
     title: (

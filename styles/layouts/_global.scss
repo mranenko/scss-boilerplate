@@ -15,6 +15,10 @@
 html {
   @include contrast-text(theme(html, background));
 
+  background-attachment: fixed;
+  background-image: url('../../images/backgrounds/city.jpg');
+  background-position: center center;
+  background-size: cover;
   font-family: theme(html, font-family);
   font-size: theme(html, font-size);
   font-weight: theme(html, font-weight);
@@ -28,6 +32,13 @@ body {
   font-size: theme(body, font-size);
   font-weight: theme(body, font-weight);
   line-height: theme(body, line-height);
+}
+
+a,
+.link {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 img {

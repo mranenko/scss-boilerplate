@@ -5,12 +5,14 @@
 @import 'base/fonts';
 @import 'base/theme';
 
+@import 'layouts/footer';
 @import 'layouts/global';
 @import 'layouts/header';
 @import 'layouts/main';
 
 @import 'modules/cards';
 @import 'modules/code';
+@import 'modules/nav';
 @import 'modules/titles';
 
 @import 'pages/demo';
