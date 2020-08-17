@@ -11,9 +11,6 @@ pages to preview the application component styles.
 ## Folder structure
 
 <pre>
-<strong>demo/</strong>
-HTML pages which demonstrate component styles.
-
 <strong>styles/</strong>
 Some useful functions and mixins, variable maps with their accessor
 functions, as well as various component styles.
@@ -25,10 +22,13 @@ functions, as well as various component styles.
     colors, fonts, theme
 
     <strong>layouts/</strong>
-    global, main
+    global, header, main
 
     <strong>modules/</strong>
-    cards, titles
+    cards, code, titles
+
+    <strong>pages/</strong>
+    demo
 
     <strong>vendor/</strong>
     bootstrap
@@ -38,6 +38,13 @@ All of the above files imported.
 
 <strong>boilerplate.css</strong>
 All of the above files compiled.
+
+
+<strong>demo/</strong>
+HTML pages which demonstrate component styles.
+
+  <strong>styles/</strong>
+  Additional styles used for demonstration purposes only.
 </pre>
 
 
@@ -54,12 +61,15 @@ styles, edit the corresponding SCSS files directly and run the following
 command in the project directory:
 
 <pre>
-sass --watch styles demo/styles
+sass --watch styles
 </pre>
 
-This will recompile SCSS files in the <code>styles/</code> and
-<code>demo/styles/</code> directories, and will continue watching for
-any other style changes. To stop watching, press <code>ctrl+c</code>.
+<small>Note: If the about sass command is not recognized, run
+<code>npm install -g sass</code></small>
 
-Preview your changes by viewing <code>demo/index.html</code> in a web
+This will recompile SCSS files in the <code>styles/</code> directory and
+will continue watching for any other style changes. To stop watching,
+press <code>ctrl+c</code>.
+
+Preview your changes by opening <code>demo/index.html</code> in a web
 browser.

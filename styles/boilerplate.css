@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
   Color functions
  */
@@ -155,7 +156,7 @@ p {
   height: 100%;
 }
 
-code,
+.demo [class^=swatch-], code,
 .code {
   font-family: Source Code Pro, monospace;
   font-size: 1.2rem;
@@ -202,6 +203,286 @@ h5 {
 h6 {
   font-size: 1.6rem;
   margin: 0 0 0.8rem;
+}
+
+.demo [class^=swatch-] {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: auto;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #e9eef1;
+  display: inline-block;
+  margin: 0 1rem 1rem 0;
+}
+.demo [class^=swatch-]::after {
+  background: #ffffff;
+  color: å;
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  z-index: auto;
+  border-top: 1px solid #f4f7f8;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  width: 100%;
+}
+.demo .swatch-primary {
+  background: #6b9abd;
+}
+.demo .swatch-primary::after {
+  content: "primary \a#6b9abd";
+}
+.demo .swatch-accent {
+  background: #f5f38a;
+}
+.demo .swatch-accent::after {
+  content: "accent \a#f5f38a";
+}
+.demo .swatch-neutral {
+  background: #93aabb;
+}
+.demo .swatch-neutral::after {
+  content: "neutral \a#93aabb";
+}
+.demo .swatch-white {
+  background: #ffffff;
+}
+.demo .swatch-white::after {
+  content: "white \a#ffffff";
+}
+.demo .swatch-success {
+  background: #6bbd94;
+}
+.demo .swatch-success::after {
+  content: "success \a#6bbd94";
+}
+.demo .swatch-info {
+  background: #8984c5;
+}
+.demo .swatch-info::after {
+  content: "info \a#8984c5";
+}
+.demo .swatch-danger {
+  background: #f58989;
+}
+.demo .swatch-danger::after {
+  content: "danger \a#f58989";
+}
+.demo .swatch-warning {
+  background: #f5c189;
+}
+.demo .swatch-warning::after {
+  content: "warning \a#f5c189";
+}
+.demo .swatch-black {
+  background: #1d2225;
+}
+.demo .swatch-black::after {
+  content: "black \a#1d2225";
+}
+.demo .swatch-dark {
+  background: #586670;
+}
+.demo .swatch-dark::after {
+  content: "dark \a#586670";
+}
+.demo .swatch-light {
+  background: #f4f7f8;
+}
+.demo .swatch-light::after {
+  content: "light \a#f4f7f8";
+}
+.demo .swatch-primary-50 {
+  background: #f0f5f8;
+}
+.demo .swatch-primary-50::after {
+  content: "50 \a#f0f5f8";
+}
+.demo .swatch-primary-100 {
+  background: #e1ebf2;
+}
+.demo .swatch-primary-100::after {
+  content: "100 \a#e1ebf2";
+}
+.demo .swatch-primary-200 {
+  background: #c4d7e5;
+}
+.demo .swatch-primary-200::after {
+  content: "200 \a#c4d7e5";
+}
+.demo .swatch-primary-300 {
+  background: #a6c2d7;
+}
+.demo .swatch-primary-300::after {
+  content: "300 \a#a6c2d7";
+}
+.demo .swatch-primary-400 {
+  background: #89aeca;
+}
+.demo .swatch-primary-400::after {
+  content: "400 \a#89aeca";
+}
+.demo .swatch-primary-500 {
+  background: #6b9abd;
+}
+.demo .swatch-primary-500::after {
+  content: "500 \a#6b9abd";
+}
+.demo .swatch-primary-600 {
+  background: #567b97;
+}
+.demo .swatch-primary-600::after {
+  content: "600 \a#567b97";
+}
+.demo .swatch-primary-700 {
+  background: #405c71;
+}
+.demo .swatch-primary-700::after {
+  content: "700 \a#405c71";
+}
+.demo .swatch-primary-800 {
+  background: #2b3e4c;
+}
+.demo .swatch-primary-800::after {
+  content: "800 \a#2b3e4c";
+}
+.demo .swatch-primary-900 {
+  background: #151f26;
+}
+.demo .swatch-primary-900::after {
+  content: "900 \a#151f26";
+}
+.demo .swatch-primary-dark {
+  background: #405c71;
+}
+.demo .swatch-primary-dark::after {
+  content: "dark \a#405c71";
+}
+.demo .swatch-accent-50 {
+  background: #fefef3;
+}
+.demo .swatch-accent-50::after {
+  content: "50 \a#fefef3";
+}
+.demo .swatch-accent-100 {
+  background: #fdfde8;
+}
+.demo .swatch-accent-100::after {
+  content: "100 \a#fdfde8";
+}
+.demo .swatch-accent-200 {
+  background: #fbfad0;
+}
+.demo .swatch-accent-200::after {
+  content: "200 \a#fbfad0";
+}
+.demo .swatch-accent-300 {
+  background: #f9f8b9;
+}
+.demo .swatch-accent-300::after {
+  content: "300 \a#f9f8b9";
+}
+.demo .swatch-accent-400 {
+  background: #f7f5a1;
+}
+.demo .swatch-accent-400::after {
+  content: "400 \a#f7f5a1";
+}
+.demo .swatch-accent-500 {
+  background: #f5f38a;
+}
+.demo .swatch-accent-500::after {
+  content: "500 \a#f5f38a";
+}
+.demo .swatch-accent-600 {
+  background: #c4c26e;
+}
+.demo .swatch-accent-600::after {
+  content: "600 \a#c4c26e";
+}
+.demo .swatch-accent-700 {
+  background: #939253;
+}
+.demo .swatch-accent-700::after {
+  content: "700 \a#939253";
+}
+.demo .swatch-accent-800 {
+  background: #626137;
+}
+.demo .swatch-accent-800::after {
+  content: "800 \a#626137";
+}
+.demo .swatch-accent-900 {
+  background: #31311c;
+}
+.demo .swatch-accent-900::after {
+  content: "900 \a#31311c";
+}
+.demo .swatch-neutral-50 {
+  background: #f4f7f8;
+}
+.demo .swatch-neutral-50::after {
+  content: "50 \a#f4f7f8";
+}
+.demo .swatch-neutral-100 {
+  background: #e9eef1;
+}
+.demo .swatch-neutral-100::after {
+  content: "100 \a#e9eef1";
+}
+.demo .swatch-neutral-200 {
+  background: #d4dde4;
+}
+.demo .swatch-neutral-200::after {
+  content: "200 \a#d4dde4";
+}
+.demo .swatch-neutral-300 {
+  background: #beccd6;
+}
+.demo .swatch-neutral-300::after {
+  content: "300 \a#beccd6";
+}
+.demo .swatch-neutral-400 {
+  background: #a9bbc9;
+}
+.demo .swatch-neutral-400::after {
+  content: "400 \a#a9bbc9";
+}
+.demo .swatch-neutral-500 {
+  background: #93aabb;
+}
+.demo .swatch-neutral-500::after {
+  content: "500 \a#93aabb";
+}
+.demo .swatch-neutral-600 {
+  background: #768896;
+}
+.demo .swatch-neutral-600::after {
+  content: "600 \a#768896";
+}
+.demo .swatch-neutral-700 {
+  background: #586670;
+}
+.demo .swatch-neutral-700::after {
+  content: "700 \a#586670";
+}
+.demo .swatch-neutral-800 {
+  background: #3b444b;
+}
+.demo .swatch-neutral-800::after {
+  content: "800 \a#3b444b";
+}
+.demo .swatch-neutral-900 {
+  background: #1d2225;
+}
+.demo .swatch-neutral-900::after {
+  content: "900 \a#1d2225";
 }
 
 /**
