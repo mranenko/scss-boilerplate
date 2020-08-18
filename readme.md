@@ -11,9 +11,12 @@ pages to preview the application component styles.
 ## Folder structure
 
 <pre>
+<strong>demo/</strong>
+HTML pages which demonstrate various component styles.
+
 <strong>styles/</strong>
 Some useful functions and mixins, variable maps with their accessor
-functions, as well as various component styles.
+functions, as well as component styles.
 
     <strong>abstracts/</strong>
     functions, mixins
@@ -38,13 +41,6 @@ All of the above files imported.
 
 <strong>boilerplate.css</strong>
 All of the above files compiled.
-
-
-<strong>demo/</strong>
-HTML pages which demonstrate component styles.
-
-  <strong>styles/</strong>
-  Additional styles used for demonstration purposes only.
 </pre>
 
 
