@@ -150,6 +150,50 @@ p {
   color: rgba(51, 55, 59, 0.6);
 }
 
+button,
+.button {
+  background: #747f86;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  font-size: 1.4rem;
+  margin: 0 0.25rem 0.25rem 0;
+  padding: 1rem 2rem;
+}
+button:hover, button.hover,
+.button:hover,
+.button.hover {
+  background: #545b60;
+  color: #ffffff;
+}
+button.button-primary,
+.button.button-primary {
+  background: #3fa9a9;
+  color: #ffffff;
+}
+button.button-primary:hover, button.button-primary.hover,
+.button.button-primary:hover,
+.button.button-primary.hover {
+  background: #348b8b;
+  color: #ffffff;
+}
+button.button-link,
+.button.button-link {
+  background: none;
+  color: #3fa9a9;
+  padding-left: 0;
+  padding-right: 0;
+}
+button.button-link:hover, button.button-link.hover,
+.button.button-link:hover,
+.button.button-link.hover {
+  background: none;
+  color: #348b8b;
+  text-decoration: underline;
+}
+
 .card {
   background: #ffffff;
   border: 1px solid #ebeff2;
@@ -264,6 +308,18 @@ h5 {
 h6 {
   font-size: 1.6rem;
   margin: 0 0 0.8rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .demo [class^=swatch-] {

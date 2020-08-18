@@ -1,0 +1,40 @@
+button,
+.button {
+  @include contrast(theme(button, neutral));
+
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  font-size: font(size, regular);
+  margin: 0 .25rem .25rem 0;
+  padding: theme(button, padding);
+
+  &:hover,
+  &.hover {
+    @include contrast(theme(button, neutral-hover));
+  }
+
+  &.button-primary {
+    @include contrast(theme(button, primary));
+
+    &:hover,
+    &.hover {
+      @include contrast(theme(button, primary-hover));
+    }
+  }
+
+  &.button-link {
+    background: none;
+    color: theme(link, primary);
+    padding-left: 0;
+    padding-right: 0;
+
+    &:hover,
+    &.hover {
+      background: none;
+      color: theme(link, primary-hover);
+      text-decoration: underline;
+    }
+  }
+}

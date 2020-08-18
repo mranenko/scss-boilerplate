@@ -54,6 +54,14 @@ $theme: map-merge($theme,
       line-height: inherit,
     ),
 
+    button: (
+      neutral: color-neutral(700),
+      neutral-hover: color-neutral(800),
+      primary: color-primary(500),
+      primary-hover: color-primary(600),
+      padding: 1rem 2rem,
+    ),
+
     card: (
       background: color(white),
       margin: 0 0 1.6rem,
@@ -76,6 +84,13 @@ $theme: map-merge($theme,
       background: color(dark),
       height: 24rem,
       padding: 2rem,
+    ),
+
+    link: (
+      neutral: color-neutral(700),
+      neutral-hover: color-neutral(800),
+      primary: color-primary(500),
+      primary-hover: color-primary(600),
     ),
 
     main: (
