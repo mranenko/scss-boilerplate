@@ -183,8 +183,7 @@ button.button-link,
 .button.button-link {
   background: none;
   color: #3fa9a9;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 1rem;
 }
 button.button-link:hover, button.button-link.hover,
 .button.button-link:hover,

@@ -8,7 +8,7 @@ button,
   font: inherit;
   font-size: font(size, regular);
   margin: 0 .25rem .25rem 0;
-  padding: theme(button, padding);
+  padding: 1rem 2rem;
 
   &:hover,
   &.hover {
@@ -27,8 +27,7 @@ button,
   &.button-link {
     background: none;
     color: theme(link, primary);
-    padding-left: 0;
-    padding-right: 0;
+    padding: 1rem;
 
     &:hover,
     &.hover {

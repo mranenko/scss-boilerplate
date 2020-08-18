@@ -1,4 +1,4 @@
-<img src="images/screenshots/scss-boilerplate-1600.png" alt="" style="margin: 0 auto; max-width: 100%;" />
+<img src="images/screenshots/scss-boilerplate-1200.png" alt="" style="margin: 0 auto; max-width: 100%;" />
 
 
 # SCSS boilerplate
