@@ -6,9 +6,9 @@ button,
   cursor: pointer;
   display: inline-block;
   font: inherit;
-  font-size: font(size, regular);
-  margin: 0 .25rem .25rem 0;
-  padding: 1rem 2rem;
+  font-size: theme(font, size, text);
+  margin: theme(button, margin);
+  padding: theme(button, padding);
 
   &:hover,
   &.hover {
@@ -27,7 +27,7 @@ button,
   &.button-link {
     background: none;
     color: theme(link, primary);
-    padding: 1rem;
+    padding: nth(theme(button, padding), 1);
 
     &:hover,
     &.hover {

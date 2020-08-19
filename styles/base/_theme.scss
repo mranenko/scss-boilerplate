@@ -1,8 +1,64 @@
 /**
-  Baseline element properties
+  Baseline theme values
  */
 
 $theme: (
+  color: (
+    text: (
+      dark: tint(color(black), 25%),
+      light: shade(color(white), 25%),
+
+      accent: (
+        dark: color(black),
+        light: color(white),
+      ),
+
+      muted: (
+        dark: rgba(color(black), 60%),
+        light: rgba(color(white), 60%),
+      ),
+    ),
+
+    title: (
+      dark: color(black),
+      light: color(white),
+    ),
+  ),
+
+  font: (
+    family: (
+      code: font(family, source-code-pro),
+      text: font(family, source-sans-pro),
+      title: font(family, pt-sans),
+    ),
+
+    size: (
+      root: 10px,       /* =1rem */
+      code: 1.2rem,
+      text: 1.4rem,
+      title: (
+        1: 3.2rem,
+        2: 2.7rem,
+        3: 2.3rem,
+        4: 2rem,
+        5: 1.8rem,
+        6: 1.6rem,
+      ),
+    ),
+
+    weight: (
+      code: 400,
+      text: 400,
+      title: 400,
+    ),
+  ),
+
+  line-height: (
+    code: 1.5,
+    text: 1.5,
+    title: 1.25,
+  ),
+
   border: (
     light: solid color-neutral(50),
     neutral: solid color-neutral(100),
@@ -11,13 +67,6 @@ $theme: (
 
   box-shadow: (
     dark: 2px 2px 4px rgba(black, 10%),
-  ),
-
-  text: (
-    dark: rgba(color(black), 75%),
-    dark-muted: rgba(color(black), 60%),
-    light: rgba(color(white), 75%),
-    light-muted: rgba(color(white), 60%),
   ),
 );
 
@@ -33,25 +82,13 @@ $theme: (
 
 
 /**
-  Additional element properties
+  Additional theme values
  */
 
 $theme: map-merge($theme,
   (
     html: (
       background: color(light),
-      font-family: font(family, source-sans-pro),
-      font-size: font(size, root),
-      font-weight: font(weight, normal),
-      line-height: (20/14),
-    ),
-
-    body: (
-      background: none,
-      font-family: inherit,
-      font-size: font(size, regular),
-      font-weight: inherit,
-      line-height: inherit,
     ),
 
     button: (
@@ -59,19 +96,14 @@ $theme: map-merge($theme,
       neutral-hover: color-neutral(800),
       primary: color-primary(500),
       primary-hover: color-primary(600),
+      margin: 0 .5rem .5rem 0,
+      padding: 1rem 2rem,
     ),
 
     card: (
       background: color(white),
       margin: 0 0 1.6rem,
       padding: 2rem,
-    ),
-
-    code: (
-      font-family: font(family, source-code-pro),
-      font-size: font(size, small),
-      font-weight: font(weight, normal),
-      line-height: (18/14),
     ),
 
     footer: (
@@ -81,7 +113,7 @@ $theme: map-merge($theme,
 
     header: (
       background: color(dark),
-      height: 24rem,
+      height: 20rem,
       padding: 2rem,
     ),
 
@@ -101,12 +133,6 @@ $theme: map-merge($theme,
       background: color-neutral(800),
       padding: 2rem,
       width: 20rem,
-    ),
-
-    title: (
-      font-family: font(family, pt-sans),
-      font-weight: font(weight, normal),
-      line-height: (16/14),
     ),
   )
 );

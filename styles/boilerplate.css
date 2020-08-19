@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**
   Color functions
  */
@@ -25,10 +24,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap");
 /**
-  Baseline element properties
+  Baseline theme values
  */
 /**
-  Additional element properties
+  Additional theme values
  */
 .footer {
   align-items: center;
@@ -55,7 +54,7 @@
 
 html {
   background: #f1f4f6;
-  color: rgba(51, 55, 59, 0.75);
+  color: #66696c;
   background-attachment: fixed;
   background-image: url("../../images/backgrounds/city.jpg");
   background-position: center center;
@@ -63,7 +62,7 @@ html {
   font-family: Source Sans Pro, sans-serif;
   font-size: 10px;
   font-weight: 400;
-  line-height: 1.4285714286;
+  line-height: 1.5;
 }
 html h1, html h2, html h3, html h4, html h5, html h6, html .title, html .subtitle {
   color: #33373b;
@@ -75,9 +74,8 @@ html label, html .label {
 body {
   background: none;
   color: inherit;
-  font-family: inherit;
+  font: inherit;
   font-size: 1.4rem;
-  font-weight: inherit;
   line-height: inherit;
 }
 
@@ -102,12 +100,23 @@ nav ul {
 }
 
 p {
-  margin: 0 0 0.7rem;
+  margin: 0 0 1.4rem;
 }
 
 /**
   Ensure that footer is always positioned at the bottom
  */
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer,
 .header,
 .main {
@@ -123,7 +132,7 @@ p {
   background: rgba(116, 127, 134, 0.3);
   display: flex;
   flex-direction: row;
-  height: 24rem;
+  height: 20rem;
   padding: 2rem;
 }
 .header .title {
@@ -140,7 +149,7 @@ p {
 
 .main {
   background: #f1f4f6;
-  color: rgba(51, 55, 59, 0.75);
+  color: #66696c;
   padding: 2rem;
 }
 .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main .title, .main .subtitle {
@@ -159,7 +168,7 @@ button,
   display: inline-block;
   font: inherit;
   font-size: 1.4rem;
-  margin: 0 0.25rem 0.25rem 0;
+  margin: 0 0.5rem 0.5rem 0;
   padding: 1rem 2rem;
 }
 button:hover, button.hover,
@@ -233,16 +242,23 @@ button.button-link:hover, button.button-link.hover,
 .code {
   font-family: Source Code Pro, monospace;
   font-size: 1.2rem;
-  line-height: 1.2857142857;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+code,
+.code {
+  color: inherit;
+  white-space: pre;
 }
 
 .nav-side {
   background: #545b60;
-  color: rgba(255, 255, 255, 0.75);
+  color: #bfbfbf;
   display: block;
   height: calc(100% + 4rem);
   margin: -2rem -1.5rem -2rem -2rem;
-  min-height: calc(100vh - 20rem);
+  min-height: calc(100vh - 30rem);
   padding: 2rem;
   width: 20rem;
 }
@@ -270,7 +286,7 @@ button.button-link:hover, button.button-link.hover,
 h1, h2, h3, h4, h5, h6, .title, .subtitle {
   font-family: PT Sans, sans-serif;
   font-weight: 400;
-  line-height: 1.1428571429;
+  line-height: 1.25;
 }
 
 h1, .title {
@@ -336,7 +352,7 @@ h6 {
 }
 .demo [class^=swatch-]::after {
   background: #ffffff;
-  color: å;
+  color: #66696c;
   position: absolute;
   top: auto;
   right: auto;
@@ -473,12 +489,6 @@ h6 {
 }
 .demo .swatch-primary-900::after {
   content: "900 \a#122f2f";
-}
-.demo .swatch-primary-dark {
-  background: #286c6c;
-}
-.demo .swatch-primary-dark::after {
-  content: "dark \a#286c6c";
 }
 .demo .swatch-accent-50 {
   background: #fdede6;

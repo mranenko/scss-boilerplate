@@ -1,10 +1,14 @@
 %code {
-  font-family: theme(code, font-family);
-  font-size: theme(code, font-size);
-  line-height: theme(code, line-height);
+  font-family: theme(font, family, code);
+  font-size: theme(font, size, code);
+  font-weight: theme(font, weight, code);
+  line-height: theme(line-height, code);
 }
 
 code,
 .code {
   @extend %code;
+
+  color: inherit;
+  white-space: pre;
 }

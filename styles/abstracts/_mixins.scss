@@ -9,14 +9,14 @@
 
 @mixin contrast-text($background: color(neutral)) {
   background: $background;
-  color: contrast-color($background, theme(text, dark), theme(text, light));
+  color: contrast-color($background, theme(color, text, dark), theme(color, text, light));
 
   h1, h2, h3, h4, h5, h6, .title, .subtitle {
     color: contrast-color($background);
   }
 
   label, .label {
-    color: contrast-color($background, theme(text, dark-muted), theme(text, light-muted));
+    color: contrast-color($background, theme(color, text, muted, dark), theme(color, text, muted, light));
   }
 }
 

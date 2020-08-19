@@ -4,7 +4,7 @@
   display: block;
   height: #{calc(100% + 4rem)};
   margin: -2rem -1.5rem -2rem -2rem;
-  min-height: #{calc(100vh - 20rem)};
+  min-height: calc(100vh - #{theme(header, height) + theme(footer, height)});
   padding: theme(nav-side, padding);
   width: theme(nav-side, width);
 
